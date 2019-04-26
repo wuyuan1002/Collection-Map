@@ -1,5 +1,6 @@
 package map;
 
+import javax.swing.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -22,10 +23,11 @@ public class mapDemo2 {
     public static void main(String[] args) {
         String str = "ak[jc b./cbadk,.b24ACad ak452sabc akADVjd678kabcLL;;[]kAD2Vjd[,abak24jbDGH3Dkjacb";
 
-        String s = getCharCount(str);
-        System.out.println(s);
+        String ss = getCharCount(str);
+        System.out.println(ss);
 
-//        Map<String,String> map = new HashMap<>();//map键如果相同会覆盖前面的
+//        //map键如果相同会覆盖前面的
+//        Map<String,String> map = new HashMap<>();
 //        map.put("a", "aa");
 //        map.put("b", "bb");
 //        map.put("a", "cc");
@@ -33,14 +35,20 @@ public class mapDemo2 {
 //            System.out.println(entry.getKey());
 //            System.out.println(entry.getValue());
 //        }
-
-//        Set<String> set = new HashSet<>();//set村相同元素时不存而不是覆盖
+////        map.forEach((k,v)->{
+////            System.out.println("key = " + k);
+////            System.out.println("value = " + v);
+////        });
+//
+//        //set村相同元素时不存而不是覆盖
+//        Set<String> set = new HashSet<>();
 //        set.add("a");
 //        set.add("b");
 //        set.add("a");
 //        for (String s : set) {
 //            System.out.println(s);
 //        }
+////        set.forEach(System.out::println);
 
     }
 
