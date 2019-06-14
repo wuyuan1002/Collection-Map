@@ -19,7 +19,7 @@ import java.util.TreeMap;
  * @version 1.0
  * @date 2019/3/20 9:27
  */
-public class mapDemo2 {
+public class MapDemo2 {
     public static void main(String[] args) {
         String str = "ak[jc b./cbadk,.b24ACad ak452sabc akADVjd678kabcLL;;[]kAD2Vjd[,abakldnl98sv24jbDGH3Dkjacb";
 
