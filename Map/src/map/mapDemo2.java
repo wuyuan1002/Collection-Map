@@ -21,7 +21,7 @@ import java.util.TreeMap;
  */
 public class mapDemo2 {
     public static void main(String[] args) {
-        String str = "ak[jc b./cbadk,.b24ACad ak452sabc akADVjd678kabcLL;;[]kAD2Vjd[,abak24jbDGH3Dkjacb";
+        String str = "ak[jc b./cbadk,.b24ACad ak452sabc akADVjd678kabcLL;;[]kAD2Vjd[,abakldnl98sv24jbDGH3Dkjacb";
 
         String ss = getCharCount(str);
         System.out.println(ss);
