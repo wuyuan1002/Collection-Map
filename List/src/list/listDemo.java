@@ -23,8 +23,8 @@ public class listDemo {
         list.add("asad4335gcs");
 
         //使用Collections的方法将list转换成线程安全的
-        Collections.synchronizedList(list);
+        List<String> synchronizedList = Collections.synchronizedList(list);
 
-        System.out.println(list);
+        System.out.println(synchronizedList);
     }
 }
