@@ -27,7 +27,7 @@ public class MapDemo2 {
         System.out.println(ss);
         
         // //map键如果相同会覆盖前面的
-        // Map<String,String> map = new HashMap<>();
+        // Map<String, String> map = new HashMap<>();
         // map.put("a", "aa");
         // map.put("b", "bb");
         // map.put("a", "cc");
@@ -39,6 +39,7 @@ public class MapDemo2 {
         // //     System.out.println("key = " + k);
         // //     System.out.println("value = " + v);
         // // });
+        //
         //
         // //set村相同元素时不存而不是覆盖
         // Set<String> set = new HashSet<>();
