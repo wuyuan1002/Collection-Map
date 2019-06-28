@@ -42,7 +42,7 @@ public class mapDemo1 {
         }
         
         /*
-         * 通过foreach循环遍历set
+         * 通过foreach循环遍历set  ***foreach的底层就是使用的迭代器***
          */
         for (Integer key : keys) {
             System.out.println(key + "---" + map.get(key));
